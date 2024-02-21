@@ -1,0 +1,35 @@
+<textarea id="" cols="30" rows="10">: área de texto para escribir, cols (columnas), rows (filas). El tamaño lo podemos modificar con CSS.
+
+select: nos permite selccionar entre distintos valores.
+-option: value es para JavaScript.
+	-selected disabled: atributo para deshabilitar una 	opción.
+-span: funciona cuando queremos hacer una modificación en un texto. Es una especie de texto suelto.
+
+name: atributo que sirve como contexto.
+Ej: tengo name=username y name=email en un formulario, cuando capture esta info con JavaScript, el formulario se va a transformar en otro tipo de dato. Esto es porque JavaScript no entiende HTML, entonces se transforma en otro formato llamado Objeto. El Objeto es como una tabla, que tiene Claves y Valores.
+Entonces, en Claves hay 2 llaves, username y email. Lo que el usuario escriba en cada llave van a ser los Valores.
+
+ENTONCES, EL NAME NOS SIRVE EN ESTE TIPO DE CÓDIGO.
+En el caso de Span, tenemos, por ej: name=TyC, que va a ser para Si y No. Entonces tenemos 2 valores posibles en una clave. Al usar el name en Si y No, va a quedar seleccionado solo una opción.
+
+<input type="password">: se escribe en puntos.
+
+value: se pone en input para darle el texto al boton de enviar.
+
+HTML5
+div: contenedor, es una forma de separar contenido, y esto le sirve a CSS.
+span: sirve para marcar algún añadidoo alguna decoración.
+
+div y span pertenecen a la generación HTML 4 para abajo.
+div es una caja normal.
+Estas son cajas especiales:
+layout: estructura de la página.
+-main: contenido principal de la página.
+-header: encabezado de página.
+-footer: pie de página.
+-article: contenedor donde la predominancia esta en el texto que esta conteniendo.
+-section: sección. Cada sección puede tener un articulo.
+-nav: navegador, puede estar repetido.
+-aside: contenido de costado.
+
+parallax: capacidad de mover la página.
