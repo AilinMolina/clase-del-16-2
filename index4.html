@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Mi primer formulario</h1>
+    <form>
+        <label for="email">Ingrese su email</label>
+        <input type="email" id="email" placeholder="ailinmol@example.com">
+
+        <label for="mensaje">Ingrese un mensaje</label>
+        <textarea id="mensaje" placeholder="Hola"></textarea>
+
+        <label>Seleccionar tu nacionalidad:</label>
+        <select id="nacionalidad">
+            <option value="NADA" selected disabled>No seleccionado</option>
+            <option value="argentina">Argentina</option>
+            <option value="francia">Francia</option>
+            <option value="uruguay">Uruguay</option>
+        </select>
+        <br>
+        <span>Estas trabajando?</span>
+        <br>
+        <label for="afirmativa">Si</label>
+        <input type="radio" id="afirmativa" name="sitLaboral">
+        <label for="negativa">No</label>
+        <input type="radio" id="negativa" name="sitLaboral">
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
