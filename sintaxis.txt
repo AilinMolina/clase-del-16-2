@@ -18,7 +18,7 @@ value: se pone en input para darle el texto al boton de enviar.
 
 HTML5
 div: contenedor, es una forma de separar contenido, y esto le sirve a CSS.
-span: sirve para marcar algún añadidoo alguna decoración.
+span: sirve para marcar algún añadido o alguna decoración.
 
 div y span pertenecen a la generación HTML 4 para abajo.
 div es una caja normal.
